@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import data from '../metal.json'
 import './Band.css';
 
-
 function Band(props) {
     const { band_name, formed, origin, fans, split, style} = props
     return (
